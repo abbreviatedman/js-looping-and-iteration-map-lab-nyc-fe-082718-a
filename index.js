@@ -31,15 +31,23 @@ wants:
 }
 
 function giveAndTake(fullName) {
+  const splitNames = fullName.split(' ');
+  // ['Colin', 'Jaffe']
   
-  fullName.split(' ');
+  
+  
   const driversName = {firstName: value1, lastName: value2}
-  
-  
-  
+
   
   // takes in a name
   // returns an object with firstName and lastName attributes
   
   return driversName;
+}
+
+
+function squaredAndDoubled(num) {
+  const numObject = {squared: num ** 2, doubled: num * 2};
+  
+  return numObject;
 }
