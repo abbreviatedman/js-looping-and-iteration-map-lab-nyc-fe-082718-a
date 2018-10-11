@@ -1,7 +1,8 @@
 // Code your solution in this file.
 
-function lowerCaseDrivers(driverName) {
-  return driverName.toLowerCase();
+function lowerCaseDrivers(drivers) {
+  // return array of lowercased drivers
+  
 }
 
 // const drivers = ["Colin", "Herman", "Cricky", "Casey"];
