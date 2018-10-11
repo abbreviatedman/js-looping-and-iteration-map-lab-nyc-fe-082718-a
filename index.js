@@ -31,12 +31,13 @@ wants:
 }
 
 function giveAndTake(fullName) {
+  // fullname = "Colin Jaffe"
   const splitNames = fullName.split(' ');
-  // ['Colin', 'Jaffe']
+  // splitNames = ['Colin', 'Jaffe']
   
   
   
-  const driversName = {firstName: value1, lastName: value2}
+  const driversName = {firstName: , lastName: }
 
   
   // takes in a name
