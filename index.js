@@ -4,12 +4,12 @@ function lowerCaseDrivers(driverName) {
   return driverName.toLowerCase();
 }
 
-const drivers = ["Colin", "Herman", "Cricky", "Casey"];
+// const drivers = ["Colin", "Herman", "Cricky", "Casey"];
 
-drivers.map(lowerCaseDrivers);
+// drivers.map(lowerCaseDrivers);
 
-const newElement = func(arr[i]);
-newArr.push(newElement);
+// const newElement = func(arr[i]);
+// newArr.push(newElement);
 
-// lowerCaseDriver('Colin')
-// lowerCaseDriver('Herman');
+// // lowerCaseDriver('Colin')
+// // lowerCaseDriver('Herman');
