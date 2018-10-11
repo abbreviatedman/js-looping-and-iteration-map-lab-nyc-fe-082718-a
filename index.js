@@ -30,7 +30,11 @@ wants:
 */
 }
 
-function giveAndTake() {
+function giveAndTake(fullName) {
+  
+  const driversName = {};
   // takes in a name
   // returns an object with firstName and lastName attributes
+  
+  return driversName
 }
