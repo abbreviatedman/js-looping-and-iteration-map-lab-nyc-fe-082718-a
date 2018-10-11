@@ -32,10 +32,6 @@ wants:
 
 function giveAndTake(fullName) {
   
-  const driversName = {};
-  
-  driversName.firstName = 'Colin';
-  driversName.lastName = 'Jaffe';
   
   const driversName = {firstName: 'Colin', lastName: 'Jaffe'}
   
