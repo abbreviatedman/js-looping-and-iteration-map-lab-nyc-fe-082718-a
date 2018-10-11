@@ -2,7 +2,11 @@
 
 function lowerCaseDrivers(drivers) {
   // return array of lowercased drivers
-  
+  return drivers.map(lowerCaseName)
+}
+
+function lowerCaseName(name) {
+  return name.toLowerCase();
 }
 
 // const drivers = ["Colin", "Herman", "Cricky", "Casey"];
