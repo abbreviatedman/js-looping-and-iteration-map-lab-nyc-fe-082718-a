@@ -33,7 +33,7 @@ wants:
 function giveAndTake(fullName) {
   
   
-  const driversName = {firstName: 'Colin', lastName: 'Jaffe'}
+  const driversName = {firstName: value1, lastName: value2}
   
   
   
