@@ -9,12 +9,11 @@ function lowerCaseName(name) {
   return name.toLowerCase();
 }
 
-// const drivers = ["Colin", "Herman", "Cricky", "Casey"];
+const drivers = ["Colin", "Herman", "Cricky", "Casey"];
 
 // drivers.map(lowerCaseDrivers);
 
 // const newElement = func(arr[i]);
 // newArr.push(newElement);
 
-// // lowerCaseDriver('Colin')
-// // lowerCaseDriver('Herman');
+lowerCaseDrivers(drivers);
