@@ -16,4 +16,16 @@ function nameToAttributes(drivers) {
   // where each object is a driver
   // with a firstName attribute
   // and a lastName attribute
+// gives us: ["Colin Jaffe", "Herman Rivas"];
+
+  return drivers.map(someFunc);
+/*
+
+wants:
+
+{
+  firstName: "Colin",
+  lastName: "Jaffe"
+}
+*/
 }
