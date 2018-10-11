@@ -16,9 +16,9 @@ function lowerCaseName(name) {
 // const drivers = ["Colin", "Herman", "Cricky", "Casey"];
 
 
-
-
-('')
+function attributesToPhrase(drivers) {
+  return drivers.map(driver => `${driver.name} is from ${driver.hometown}`)
+}
 
 
 
