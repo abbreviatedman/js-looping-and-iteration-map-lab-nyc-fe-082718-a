@@ -37,18 +37,11 @@ function giveAndTake(fullName) {
   
   
   
-  const driversName = {firstName: , lastName: }
+  const driversName = {firstName: splitNames[0], lastName: splitNames[1]}
 
   
   // takes in a name
   // returns an object with firstName and lastName attributes
   
   return driversName;
-}
-
-
-function squaredAndDoubled(num) {
-  const numObject = {squared: num ** 2, doubled: num * 2};
-  
-  return numObject;
 }
