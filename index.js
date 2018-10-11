@@ -32,7 +32,16 @@ wants:
 
 function giveAndTake(fullName) {
   
-  const driversName = {};
+  // const driversName = {};
+  
+  // driversName.firstName = 'Colin';
+  // driversName.lastName = 'Jaffe';
+  
+  const driversName = {firstName: 'Colin', lastName: 'Jaffe'}
+  
+  
+  
+  
   // takes in a name
   // returns an object with firstName and lastName attributes
   
