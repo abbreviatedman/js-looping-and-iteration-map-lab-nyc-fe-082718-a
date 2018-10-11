@@ -32,7 +32,7 @@ wants:
 
 function giveAndTake(fullName) {
   
-  
+  fullName.split(' ');
   const driversName = {firstName: value1, lastName: value2}
   
   
