@@ -29,3 +29,8 @@ wants:
 }
 */
 }
+
+function giveAndTake() {
+  // takes in a name
+  // returns an object with firstName and lastName attributes
+}
