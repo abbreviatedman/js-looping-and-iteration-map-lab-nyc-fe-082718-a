@@ -18,7 +18,7 @@ function nameToAttributes(drivers) {
   // and a lastName attribute
 // gives us: ["Colin Jaffe", "Herman Rivas"];
 
-  return drivers.map(someFunc);
+  return drivers.map(giveAndTake);
 /*
 
 wants:
@@ -32,10 +32,10 @@ wants:
 
 function giveAndTake(fullName) {
   
-  // const driversName = {};
+  const driversName = {};
   
-  // driversName.firstName = 'Colin';
-  // driversName.lastName = 'Jaffe';
+  driversName.firstName = 'Colin';
+  driversName.lastName = 'Jaffe';
   
   const driversName = {firstName: 'Colin', lastName: 'Jaffe'}
   
